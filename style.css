@@ -1,0 +1,83 @@
+body{
+    background-color: rgba(135, 235, 235, 0.658);
+}
+
+header{
+    width: 100%;
+    text-align: center;
+}
+.logo{
+    margin-top: 25px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 24px;
+}
+.sponser-logo{
+    padding-top: 0px ;
+    padding-bottom: 20px;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.small-logo{
+    box-sizing: border-box;
+    margin: 0px 10px ;
+}
+
+/*main styling*/
+
+.main-form{
+    width: 350px;
+    margin: auto;
+    background-color: whitesmoke;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.form-heading{
+    font-size: 32px;
+    font-weight: 200;
+    width: 100%;
+    box-sizing: border-box;
+}
+.form-heading-description{
+    font-size: 14px;
+    width: 100%;
+}
+.form-div{
+    width: 100%;
+    margin-top: 15px;
+    text-align: left;
+    font-size: 18px;
+}
+.form-div input{
+    width: 100%;
+    padding: 5px;
+}
+#submit{
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: blue;
+    font-size: 24px;
+    font-weight: 200;
+    border-radius: 10px;
+}
+.sign-in-description{
+    width: 100%;
+    text-align: center;
+}
+/*footer styling */
+footer{
+    width: 100%;
+    text-align: center;
+}
+.footer-description{
+    width: 600px;
+    margin: auto;
+}

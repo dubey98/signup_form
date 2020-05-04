@@ -4,9 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <header>
+            <div class="logo">main form Logo</div>
+            <div class="sponser-logo">
+                <div class="small-logo">spnsor logo 1</div>
+                <div class="small-logo">sponsor logo 2</div>
+                <div class="small-logo">spnsor logo 3</div>
+            </div>
+        </header>
+        <main>
+            <form action="#" class="main-form">
+                <div class="form-heading">Create an intuit account</div>
+                <div class="form-heading-description">
+                    One account for everything intuit. including mint <br>
+                    <a href="#">Learn More</a><br>
+                    Already have an account? <a href="#">Sign in</a>
+                </div>
+                <div class="form-div">
+                    <label for="email">Email or user ID</label><br>
+                    <input type="text" name="email" id="email" required><br>
+                </div>
+                <div class="form-div">
+                    <label for="password">Password</label><br>
+                    <input type="password" name="password" id="password">
+                    <span class="password-error-message">
+                        <div class="pwd-check-1"></div>
+                        <div class="pwd-check-2"></div>
+                        <div class="pwd-check-3"></div>
+                        <div class="pwd-check-4"></div>
+                    </span><br>
+                    <label for="confirm-password">Confirm Password</label><br>
+                    <input type="password" name="confirm-password" id="confirm-password"><br>
+                    <span class="confirm-passowrd-error-message"></span>
+                </div>
+                <button type="submit" id="submit">Create Account</button>
+                <div class="sign-in-description form-div">
+                    <div>By clicking Sign In, you agree to <a href="#">our Terms</a> and have read and acknowledge our <a href="#">US Privacy Statement</a>.</div>
+                    <div class="update-date">Updated on January 1,2020</div>
+                    <hr>
+                    <div><a href="">I forgot my user ID and password</a></div>
+                </div>
+            </form>
+        </main>
+        <footer>
+            <div class="footer-links">
+                <a href="#">Legal</a>
+                <a href="#">Priavcy</a>
+                <a href="#">Security</a>
+            </div>
+            <div class="footer-description">
+                © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.Terms and conditions, features, support, pricing, and service options subject to change without notice.
+            </div>
+        </footer>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
